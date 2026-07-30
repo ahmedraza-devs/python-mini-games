@@ -1,52 +1,56 @@
-# 🎮 Python Mini Games
+# Python Mini Games
 
-Welcome to **Python Mini Games**!
+A collection of beginner-friendly command-line games built with Python.
 
-This repository contains a collection of beginner-friendly command-line games that I built while learning Python. Each game helped me practice different programming concepts such as loops, conditions, functions, randomization, and user input.
+This repository contains small Python games that I created while learning programming. Each project focuses on improving problem-solving skills and understanding core Python concepts such as loops, conditional statements, functions, randomization, and user input.
 
-As I continue learning Python, I'll keep adding more mini games and improving the existing ones.
+New games will be added as I continue learning and building more Python projects.
 
 ---
 
-## 📌 Games Included
+## 📁 Games Included
 
 | Game | Status |
 |------|--------|
-| 🎮 Rock Paper Scissors | ✅ Available |
-| 🎲 Gambling Game | 🚧 Coming Soon |
-| 🔤 Hangman Game | 🚧 Coming Soon |
+| Rock Paper Scissors | ✅ Completed |
+| Gambling Game | ✅ Completed |
+| Hangman Game | 🚧 Coming Soon |
 
 ---
 
-## 🛠 Built With
-
-- Python 3
-
----
-
-## 📂 Repository Structure
+## 📂 Project Structure
 
 ```text
 python-mini-games/
 │
 ├── rock-paper-scissors/
+│   └── main.py
+│
 ├── gambling-game/
+│   └── gambling_game.py
+│
 └── hangman-game/
 ```
 
+> *File names may vary depending on the project version.*
+
 ---
 
-## 🚀 How to Run
+## 🚀 Getting Started
 
-1. Clone this repository
+### Clone the repository
 
 ```bash
 git clone https://github.com/ahmedraza-devs/python-mini-games.git
 ```
 
-2. Open the folder of the game you want to play.
+### Open the project
 
-3. Run the Python file.
+```bash
+cd python-mini-games
+```
+
+### Run a game
 
 Example:
 
@@ -55,24 +59,54 @@ cd rock-paper-scissors
 python main.py
 ```
 
-> Replace `main.py` with your actual Python filename if it's different.
+For the Gambling Game:
+
+```bash
+cd gambling-game
+python gambling_game.py
+```
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+
+---
+
+## 📚 Concepts Practiced
+
+- Variables
+- Conditional Statements
+- Loops
+- Functions
+- User Input
+- Random Module
+- Game Logic
 
 ---
 
 ## 🎯 Purpose
 
-This repository is part of my Python learning journey. The goal is to improve problem-solving skills by building small games and practicing core Python concepts.
+The purpose of this repository is to document my Python learning journey by building small, practical projects. Each game helps reinforce programming fundamentals through hands-on practice.
 
 ---
 
-## 📬 Feedback
+## 📌 Future Updates
 
-If you have any suggestions or ideas to improve these games, feel free to open an issue or submit a pull request.
+- Hangman Game
+- Number Guessing Game
+- Dice Rolling Simulator
+- Tic Tac Toe
+- Password Generator
 
 ---
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 
 **Ahmed Raza**
 
-GitHub: **@ahmedraza-devs**
+GitHub: https://github.com/ahmedraza-devs
+
+---
+⭐ If you found these projects useful, consider giving this repository a star.
